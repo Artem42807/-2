@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artem Shapoval</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .footer {
+            background-color: #6200ea;
+            color: white;
+            padding: 20px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .navbar-brand {
+                font-size: 18px;
+            }
+            .nav-link {
+                font-size: 14px;
+            }
+            .footer p {
+                font-size: 14px;
+            }
+            .footer a {
+                font-size: 14px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .container {
+                padding: 5px;
+            }
+            .navbar-brand {
+                font-size: 16px;
+            }
+            .nav-link {
+                font-size: 12px;
+            }
+            .footer p {
+                font-size: 12px;
+            }
+            .footer a {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">MD</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index3.html">Про мене</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Мої вміння</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index2.html">Мої проекти</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container text-center my-5">
+    <h1>Артем Шаповал</h1>
+    <p>Я програміст виробляю сайти </p>
+    <img src="1.jpg" alt="Artem" class="img-fluid my-3">
+</div>
+
+<div class="container my-5">
+    <h2 class="text-center">Вміння</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Програмував роботів</h3>
+            <p>Їхні очі і рухи колесами
+            Знання мови допомагає мені знаходити важливі дані, використовуючи машинне навчання та розробляти інструменти для автоматизації процесів.</p>
+         
+        </div>
+        <div class="col-md-4">
+            <h3>Arduino</h3>
+            <p>Знання мови допомагає мені знаходити важливі дані</p>
+            <ul>
+                <li>Matplotlib</li>
+                <li>Seaborn</li>
+                <li>Pandas</li>
+                <li>NumPy</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h3>Дизайн</h3>
+            <p>Створюю привабливі та інтуїтивно зрозумілі інтерфейси, що покращують користувацький досвід.</p>
+            <ul>
+                <li>UX/UI дизайн</li>
+                <li>Створення креативів</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<footer class="footer text-center">
+    <div class="container">
+        <p>Artem Shapoval</p>
+        <p>Про мене | Мої вміння | Мої проекти</p>
+        <p>
+            <a href="https://www.facebook.com/" class="text-white">Facebook</a> |
+            <a href="https://www.instagram.com/" class="text-white">Instagram</a>
+        </p>
+        <p>© Created by | Artem Shapoval and Robocode</p>
+    </div>
+</footer>
+
+<audio id="background-music" loop>
+    <source src="76.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+
+<script>
+    // Play music on page load
+    document.addEventListener("DOMContentLoaded", function() {
+        var audio = document.getElementById("background-music");
+        audio.play();
+    });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
